@@ -1,0 +1,9 @@
+This is a simple experiment which leverages flask to provide a web-based interface to a python module.
+
+The python module 'search_for_letters' contains a function search4letters that accepts two strings and returns a set containing the characters common in the given strings
+
+>>> help(search4letters)
+Help on function search4letters in module search_for_letters:
+
+search4letters(phrase: str, letters: str = 'aieou') -> set
+    Displays common characters in two phrases.

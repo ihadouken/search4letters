@@ -1,0 +1,13 @@
+<!doctype html>
+{% extends 'base.html' %}
+{% block body %}
+<form method='POST' action='/login'>
+<table>
+<p>Login with your credentials to enjoy administrator access 😄:</p>
+<tr><td>Username:</td><td><input name='username' type='TEXT' width='60'></td></tr>
+<tr><td>Password:</td><td><input name='password' type='TEXT' width='60'></td></tr>
+</table>
+<p>When you're ready, click this button:</p>
+<p><input value='Login' type='SUBMIT'></p>
+</form>
+{% endblock %}
