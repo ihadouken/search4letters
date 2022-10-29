@@ -6,18 +6,18 @@
 <center><h4>We collect your data and we give zero fuck(s) for that!</h4></center>
 
 <center><table>
-	<tr>
-		{% for row_title in the_row_title %}
-			<th>{{row_title}}</th>
-		{% endfor %}
-	</tr>
-	{% for log_row in the_data %}
-		<tr>
-			{% for item in log_row %}
-				<td>{{item}}</td>
-			{% endfor %}
-		</tr>
-	{% endfor %}
+    <tr>
+        {% for row_title in the_row_title %}
+            <th>{{row_title}}</th>
+        {% endfor %}
+    </tr>
+    {% for log_row in the_data %}
+        <tr>
+            {% for item in log_row %}
+                <td>{{item}}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
 </table></center>
 
 {% endblock %}

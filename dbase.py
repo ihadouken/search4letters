@@ -2,13 +2,13 @@ import mariadb
 
 
 class ConnectionError(Exception):
-	pass
+    pass
 
 class CredentialsError(Exception):
-	pass
+    pass
 
 class SQLError(Exception):
-	pass
+    pass
 
 
 class DatabaseConnection():
